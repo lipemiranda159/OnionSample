@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnionSample.Domain.Service\OnionSample.Domain.Service.csproj" />
+    <ProjectReference Include="..\OnionSample.Infraestructure.Provider\OnionSample.Infraestructure.Provider.csproj" />
+  </ItemGroup>
+
+</Project>
